@@ -22,7 +22,7 @@ async function typing(){
 		text.innerHTML += txt=== "\n" ? "<br/>": txt;
 		if (i == content.length) {
 			lock = 1;
-			await sleep(5000)
+			await sleep(7000)
 			text.textContent = "";
 			i = 0;
 			lock = 0;
