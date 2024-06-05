@@ -10868,3 +10868,8 @@ textarea.form-control-lg {
     background-color: #fcfcfa;
   }
 }
+
+.vline {
+    vertical-align: 0;
+    padding-right: 7px;
+}
