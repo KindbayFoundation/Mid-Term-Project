@@ -10838,6 +10838,8 @@ textarea.form-control-lg {
   background-size: cover; 
 }
 
+
+
 .hr-text {
   line-height: 1em;
   position: relative;
@@ -10877,4 +10879,21 @@ textarea.form-control-lg {
 .emoji {
     vertical-align: -1;
     padding-right: 5px;
+}
+
+
+.text_box{
+  font-size: 2.3rem;
+  text-align: left;
+}
+
+.blink {
+  animation: blink 0.5s infinite;
+  font-size: 2.5rem;
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
 }
